@@ -1,0 +1,41 @@
+.information{
+    .picture{
+display: flex;
+      .picture_wrap{
+        img{
+          width: 500px;
+        }
+
+          }
+      .orange{
+        background-color: #ffda55;
+        .info{
+        padding: 116px 153px 0 53px;
+          h1{
+            margin-bottom: 20px;
+            font-weight: 600;
+          }
+          p{
+            font-size: 14px;
+          }
+          h1,p{
+            color: white;
+          }
+        }
+        .bot{
+          a.bot{
+            background-color: #ffda55;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 9px;
+            display: inline-block;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            border: 1px solid #80808073;
+            margin: 20px 0 0 55px;
+          }
+        }
+      }
+    }
+  }

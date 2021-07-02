@@ -1,0 +1,32 @@
+header{
+  padding: 30px 0;
+
+  nav{
+    width: var(--content-width);
+    margin: 0 auto;
+    text-align: right;
+    img{
+      width: 50px;
+    }
+    li{
+      display: inline-block;
+      text-align: right;
+      box-sizing: border-box;
+      &:hover{
+        background-color: yellow;
+      }
+    }
+    a{
+      color: black;
+      text-decoration: none;
+    margin: 13px;
+      display: inline-block;
+      transition: background-color 0.3s;
+      text-align: right;
+      box-sizing: border-box;
+
+    }
+  }
+
+
+}
